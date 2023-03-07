@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Living" transform="translate(-1400 -605)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="50" cy="50" r="50" transform="translate(1400 605)" fill="#2a622e" opacity="0.1"/>
+    <path id="path1312" d="M216.385,82.481,181.93,81.3Z" transform="translate(1251.109 585.737)" fill="#fff"/>
+    <g id="_353396_chair_furniture_sofa_living_icon" data-name="353396_chair_furniture_sofa_living_icon" transform="translate(1418 623)">
+      <path id="Path_77" data-name="Path 77" d="M51,30a8.009,8.009,0,0,0-8,8v1.461C41.229,38.825,37.8,38,32,38s-9.228.828-11,1.461V38a8.009,8.009,0,0,0-8-8,5,5,0,0,0-1.921,9.617A1.5,1.5,0,0,1,12,41l1,4a7.009,7.009,0,0,0,6.206,6.952A2.442,2.442,0,1,0,21.385,52H42.618a2.435,2.435,0,1,0,2.179-.048A7.009,7.009,0,0,0,51,45l1-4a1.5,1.5,0,0,1,.921-1.383A5,5,0,0,0,51,30Z" fill="#2a622e"/>
+      <path id="Path_78" data-name="Path 78" d="M23.75,35.659A46.088,46.088,0,0,1,32,35a46.089,46.089,0,0,1,8.25.662A11.034,11.034,0,0,1,47,27.758V22.42a15,15,0,0,0-30,0v5.339A11.033,11.033,0,0,1,23.75,35.659Z" fill="#2a622e"/>
+    </g>
+  </g>
+</svg>
