@@ -12,6 +12,13 @@ import { QualityComponent } from './quality/quality.component';
 import { SatisfactionComponent } from './satisfaction/satisfaction.component';
 import { AirTransportationComponent } from './air-transportation/air-transportation.component';
 import { LoginComponent } from './login/login.component';
+import { TableComponent } from './table/table.component';
+import { LoginUserOneComponent } from './login-user-one/login-user-one.component';
+import { LoginUserTowComponent } from './login-user-tow/login-user-tow.component';
+import { SystemsOneComponent } from './systems-one/systems-one.component';
+import { HomeOneComponent } from './home-one/home-one.component';
+import { HomeTowComponent } from './home-tow/home-tow.component';
+import { SystemTowComponent } from './system-tow/system-tow.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +31,17 @@ import { LoginComponent } from './login/login.component';
     QualityComponent,
     SatisfactionComponent,
     AirTransportationComponent,
-    LoginComponent
+    LoginComponent,
+    TableComponent,
+    LoginUserOneComponent,
+    LoginUserTowComponent,
+    SystemsOneComponent,
+    HomeOneComponent,
+    HomeTowComponent,
+    SystemTowComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
