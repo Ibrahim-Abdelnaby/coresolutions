@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+
+  .systems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+    .cards {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+
+      h3 {
+        color: var(--main-color);
+      }
+
+      h3,
+      p {
+        margin: 0 0 1em;
+
+        span {
+          font-weight: 700;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 500px) {
+  .container {
+    .systems {
+      gap: 30px;
+
+      header {
+        margin-top: 20px;
+      }
+
+      .cards {
+        flex-direction: column !important;
+        gap: 30px;
+      }
+
+      .last {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

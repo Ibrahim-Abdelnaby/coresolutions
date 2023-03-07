@@ -1,0 +1,198 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Google Font
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --main-color: #2a622e;
+  --black-color: #222222;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  color: var(--black-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  grid-template-rows: 1fr;
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: linear-gradient(#4e7b38, #174724 75%);
+    height: 100vh;
+
+    img {
+      width: 100px;
+    }
+
+    .haj {
+      width: 150px;
+    }
+
+    .elm {
+      width: 80px;
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 1fr;
+    grid-template-areas: "logos" "content";
+
+    .logos {
+      grid-area: logos;
+      flex-flow: row nowrap;
+      gap: 5%;
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 40vh;
+
+      img {
+        width: 100px !important;
+      }
+
+      .elm {
+        width: 50px !important;
+      }
+    }
+  }
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid var(--main-color);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: var(--main-color);
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -ms-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+
+  &:hover {
+    opacity: 0.6;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+
+  img {
+    width: 10%;
+  }
+}
+
+// Back Button
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  padding-right: 5%;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--black-color);
+  }
+
+  img {
+    width: 10px;
+  }
+}
+
+// Card Design - With Icon
+
+.card {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 3px 10px rgba($color: #4e7b38, $alpha: 0.05);
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+
+  &:hover {
+    box-shadow: 0 3px 50px rgba($color: #4e7b38, $alpha: 0.1);
+  }
+
+  img {
+    width: 30%;
+  }
+
+  h3 {
+    margin: 1em 0;
+    text-align: center;
+
+    span {
+      font-size: 75%;
+    }
+  }
+}
