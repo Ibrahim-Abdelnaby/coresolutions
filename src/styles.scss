@@ -52,12 +52,12 @@ p {
     height: 100vh;
 
     img {
-      width: 100px;
-    }
-
-    .haj {
       width: 150px;
     }
+
+    // .haj {
+    //   width: 150px;
+    // }
 
     .elm {
       width: 80px;
@@ -86,6 +86,10 @@ p {
 
       .elm {
         width: 50px !important;
+      }
+
+      .core {
+        width: 150px !important;
       }
     }
   }
