@@ -16,7 +16,7 @@ html {
 }
 
 :root {
-  --main-color: #2a622e;
+  --main-color: #9f734c;
   --black-color: #222222;
   --white-color: #ffffff;
 }
@@ -48,16 +48,16 @@ p {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    background: linear-gradient(#4e7b38, #174724 75%);
+    background: linear-gradient(#e5a770, #9f734c 75%);
     height: 100vh;
 
     img {
-      width: 150px;
+      width: 250px;
     }
 
-    // .haj {
-    //   width: 150px;
-    // }
+    .haj {
+      width: 350px;
+    }
 
     .elm {
       width: 80px;
